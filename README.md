@@ -40,28 +40,14 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**:
 git clone https://github.com/your-username/MedHelp.git cd MedHelp
 
-markdown
-Copier le code
-
-2. **Create and Activate a Virtual Environment**:
-python -m venv venv source venv/bin/activate # On macOS/Linux venv\Scripts\activate # On Windows
-
-markdown
-Copier le code
-
-3. **Install Dependencies**:
+2. **Install Dependencies**:
 pip install -r requirements.txt
 
-markdown
-Copier le code
+3. **Run the Flask Application**:
+python main.py
 
-4. **Run the Flask Application**:
-python app.py
 
-markdown
-Copier le code
-
-5. **Access the Application**:
+4. **Access the Application**:
 Open your browser and navigate to:
 http://127.0.0.1:5000/
 
